@@ -1,6 +1,11 @@
 import React, { useState} from 'react';
 
-function Question({ title, content }) {
+interface QuestionProps {
+  title: string;
+  content: string;
+}
+
+function Question({ title, content }: QuestionProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
 

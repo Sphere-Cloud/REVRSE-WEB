@@ -6,7 +6,14 @@ const ralewayFont = Raleway({
   weight: ["400", "500", "600", "700"],
 });
 
-function PriceCard({ title, price, features, description }) {
+interface PriceCardProps {
+  title: string;
+  price: string;
+  features: string[];
+  description: string;
+}
+
+function PriceCard({ title, price, features, description }: PriceCardProps) {
     return (
         <div className="max-w-[500px] w-11/12 md:w-full m-3 md:m-0 rounded-xl shadow-lg border-[#DDDDDD] border-[2px] bg-[#FFFDFB]">
             <div className="w-full flex flex-col px-6 py-3">

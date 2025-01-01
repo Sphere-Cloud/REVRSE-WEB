@@ -14,7 +14,9 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-[#FDFDFC] shadow-md">
       <div className="flex justify-between items-center py-4 px-2 md:px-0 max-w-[1120px] m-auto max-h-[10vh]">
-        <img src="revrse.svg" alt="Logo" className="w-1/3 md:hidden h-12" />
+        <Link href="/">
+          <img src="revrse.svg" alt="Logo" className="w-1/3 md:hidden h-12" />
+        </Link>
         
 
         <button className="md:hidden text-[#FF5022] focus:outline-none" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -25,9 +27,9 @@ export default function Navbar() {
         <div className={`hidden md:flex  w-full items-center ${ralewayFont.className} py-3 border-b-[1px] border-[#CDCDCD]`}>
 
             
-            <a href="/">
+            <Link href="/">
               <img src="revrse.svg" alt="Logo" className="h-10"/>
-            </a>
+            </Link>
             
             <ul className='w-2/3 flex gap-6 px-2 justify-end'>
                 <li>

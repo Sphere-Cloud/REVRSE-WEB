@@ -3,7 +3,6 @@ import Home from "@/components/home";
 import Footer from "@/components/footer";
 import Faq from "@/components/faq";
 import Benefits from "@/components/benefits";
-import Prices from "@/components/prices";
 import Features from "@/components/features";
 import Demo from "@/components/demo";
 
