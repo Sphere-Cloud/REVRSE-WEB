@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
 import { Raleway, Hanken_Grotesk } from "next/font/google";
 
 const ralewayFont = Raleway({
@@ -57,9 +57,9 @@ function Demo() {
                     </div>
                     <div className="border-[#101010] border-[0.5px] rounded-md flex justify-center items-center w-full">
                         <div className="border-white border-[0.5px] rounded-md flex justify-center items-center w-full">
-                            <a href="/demo" target="blank" className='w-full py-1 px-3 rounded-md text-white font-normal bg-[#101010] text-center text-lg'>
+                            <button type='submit' className='w-full py-1 px-3 rounded-md text-white font-normal bg-[#101010] text-center text-lg'>
                             Enviar
-                            </a>
+                            </button>
                         </div>
                     </div>
                     

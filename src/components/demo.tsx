@@ -1,4 +1,5 @@
 import { Raleway, Hanken_Grotesk } from "next/font/google";
+import Link from "next/link";
 
 const ralewayFont = Raleway({
   subsets: ["latin"],
@@ -31,7 +32,7 @@ export default function Demo() {
                             
                             <div className="border-[#101010] border-[0.5px] rounded-md flex justify-center items-center w-fit">
                                 <div className="border-white border-[0.5px] rounded-md flex justify-center items-center">
-                                    <a href="/demo" target="blank" className=' py-1 px-3 rounded-md text-white font-normal bg-[#101010] text-center text-lg'>Agendar demo</a>
+                                    <Link href="/demo" target="blank" className=' py-1 px-3 rounded-md text-white font-normal bg-[#101010] text-center text-lg'>Agendar demo</Link>
                                 </div>
                             </div>
                             

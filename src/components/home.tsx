@@ -1,5 +1,6 @@
 import react from 'react';
 import { useState } from 'react';
+import Link from 'next/link';
 import { MdArrowOutward } from "react-icons/md";
 import { Raleway, Hanken_Grotesk } from "next/font/google";
 
@@ -26,7 +27,7 @@ export default function Home(){
 
                         <div className="border-[#FF5022] border-[0.5px] rounded-md flex justify-center items-center w-fit">
                             <div className="border-white border-[0.5px] rounded-md flex justify-center items-center">
-                                <a href="#" target="blank" className=' py-1 px-3 rounded-md text-white font-semibold bg-[#FF5022] text-center text-lg flex items-center gap-5'>DEMO <MdArrowOutward /></a>
+                                <Link href="#" target="blank" className=' py-1 px-3 rounded-md text-white font-semibold bg-[#FF5022] text-center text-lg flex items-center gap-5'>DEMO <MdArrowOutward /></Link>
                             </div>
                         </div>
 

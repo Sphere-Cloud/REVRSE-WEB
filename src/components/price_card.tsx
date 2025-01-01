@@ -17,9 +17,9 @@ function PriceCard({ title, price, features, description }) {
                 <span className="text-[#101010]">{description}</span>
             </div>
             <div className="w-full flex flex-col px-6 py-3 justify-center items-center">
-                <a href="#" className="bg-[#FF5022] text-white text-lg font-bold py-3 px-4 rounded-full w-full text-center">
+                <link href="#" className="bg-[#FF5022] text-white text-lg font-bold py-3 px-4 rounded-full w-full text-center">
                     Empieza Ahora
-                </a>
+                </link>
             </div>
 
             <div className="w-full flex flex-row px-6 py-3 justify-center items-center gap-4">
