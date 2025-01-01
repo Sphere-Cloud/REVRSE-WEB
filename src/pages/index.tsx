@@ -4,6 +4,8 @@ import Footer from "@/components/footer";
 import Faq from "@/components/faq";
 import Benefits from "@/components/benefits";
 import Prices from "@/components/prices";
+import Features from "@/components/features";
+import Demo from "@/components/demo";
 
 
 export default function Index() {
@@ -11,9 +13,11 @@ export default function Index() {
         <>
             <Navbar></Navbar>
             <Home></Home>
-            <Benefits></Benefits>
+            <Features></Features>
+            {/*<Benefits></Benefits>
             <Prices></Prices>
-            <Faq></Faq>
+            <Faq></Faq> */}
+            <Demo></Demo>
             <Footer></Footer>
         </>
     );
