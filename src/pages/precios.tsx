@@ -15,7 +15,6 @@ const hankenGroteskFont = Hanken_Grotesk({
 });
 
 export default function Prices() {
-
     return(
         <>
             <Navbar></Navbar>

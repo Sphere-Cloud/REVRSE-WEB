@@ -1,4 +1,5 @@
 import { FaCheckCircle } from "react-icons/fa";
+import Link from "next/link";
 import { Raleway, Hanken_Grotesk } from "next/font/google";
 
 const ralewayFont = Raleway({
@@ -24,9 +25,9 @@ function PriceCard({ title, price, features, description }: PriceCardProps) {
                 <span className="text-[#101010]">{description}</span>
             </div>
             <div className="w-full flex flex-col px-6 py-3 justify-center items-center">
-                <link href="#" className="bg-[#FF5022] text-white text-lg font-bold py-3 px-4 rounded-full w-full text-center">
+                <Link href="#" className="bg-[#FF5022] text-white text-lg font-bold py-3 px-4 rounded-full w-full text-center">
                     Empieza Ahora
-                </link>
+                </Link>
             </div>
 
             <div className="w-full flex flex-row px-6 py-3 justify-center items-center gap-4">
